@@ -28,7 +28,7 @@ private:
 	const string Codigo;
 	const  string descripcion;
 	struct Dimensiones;
-	Enum Estado Estado;
+	Estado estado;
 	cFecha Lista_Fechas;
 	const string Nombre;
 	const float Peso;
