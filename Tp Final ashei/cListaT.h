@@ -16,6 +16,7 @@ public:
 	~cListaT()
 
 };
+
 template <class T>
 cListaT<T>::cListaT(unsigned int _ca, unsigned int _ct)
 {
