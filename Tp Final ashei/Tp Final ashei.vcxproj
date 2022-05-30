@@ -139,10 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cElectrocariograma.cpp" />
+    <ClCompile Include="cEquipo.cpp" />
+    <ClCompile Include="cFecha.cpp" />
+    <ClCompile Include="cMesa_Anestesia.cpp" />
+    <ClCompile Include="cRespirador.cpp" />
+    <ClCompile Include="cSistema.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tp Final ashei.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cElectrocariograma.h" />
+    <ClInclude Include="cEquipo.h" />
+    <ClInclude Include="cFecha.h" />
     <ClInclude Include="cListaT.h" />
+    <ClInclude Include="cMesa_Anestesia.h" />
+    <ClInclude Include="cRespirador.h" />
+    <ClInclude Include="cSistema.h" />
+    <ClInclude Include="Estado.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

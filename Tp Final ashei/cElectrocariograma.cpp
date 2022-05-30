@@ -1,9 +1,3 @@
-///////////////////////////////////////////////////////////
-//  cElectrocariograma.cpp
-//  Implementation of the Class cElectrocariograma
-//  Created on:      29-may.-2022 14:51:31
-//  Original author: paris
-///////////////////////////////////////////////////////////
 
 #include "cElectrocariograma.h"
 

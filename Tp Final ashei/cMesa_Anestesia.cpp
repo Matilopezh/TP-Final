@@ -1,9 +1,3 @@
-///////////////////////////////////////////////////////////
-//  cMesa_Anestesia.cpp
-//  Implementation of the Class cMesa_Anestesia
-//  Created on:      29-may.-2022 14:51:32
-//  Original author: paris
-///////////////////////////////////////////////////////////
 
 #include "cMesa_Anestesia.h"
 

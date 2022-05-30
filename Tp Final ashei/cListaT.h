@@ -13,7 +13,7 @@ public:
 	void operator+ (T* Elemento);
 	void operator-(T* Elemento);
 	T* operator[](unsigned int codigo);
-	~cListaT()
+	~cListaT();
 
 };
 
@@ -39,10 +39,10 @@ cListaT<T>:: ~cListaT()
 template<class T>
 inline void cListaT<T>:: operator+(T* Elemento)
 {
-	try {
+	//try {
 		if (Elemento == nullptr)throw "Error Elemento Nulo";
-	}
-	if (ca >= tam)
+//	}
+	if (ca >= ct)
 	{
 		throw new exception("No hay tamaño suficiente para agregar el item");
 	}
@@ -54,16 +54,16 @@ inline void cListaT<T>:: operator+(T* Elemento)
 }
 template <class T>
 inline void cListaT<T>:: operator-(T* Elemento) {
-	try {
+	//try {
 		if (Elemento == nullptr)throw "Error Elemento nulo";
-	}
+	//}
 	if (lista[ca] == Elemento)
 	{
 		lista[ca] == nullptr;
 		ca--;
 	}
-	unsigned int pos = 0;
 	else {
+		unsigned int pos = 0;
 		for (int i = 0; i < ca - 1; i++)
 		{
 			if (lista[i] == Elemento)
@@ -75,16 +75,16 @@ inline void cListaT<T>:: operator-(T* Elemento) {
 			lista[j] = lista[j + 1];
 		}
 		lista[ca] = nullptr;
-		ca--;
+		ca = ca - 1;
 	}
 
 }
 
 template <class T>
 inline T* cListaT<T>::operator[](unsigned int _codigo) {
-	try {
+	//try {
 		if (Elemento == nullptr)throw "Error Elemento nulo";
-	}
+	//}
 	for (int i = 0; i < ca; i++) {
 		if (lista[i].GetCodigo() == _codigo) return lista[i];
 	}
